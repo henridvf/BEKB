@@ -12,7 +12,7 @@ from selenium.webdriver.support.ui import WebDriverWait as wait
 from lxml import html
 from time import sleep
 import argparse
-import csv
+
 import sys
 import json
 from re import sub
@@ -125,7 +125,7 @@ def main():
 
     print('Complete!')
 
-
+# Currently used as module for ofx.py, but can be used as standalone script
 if __name__ == '__main__':
     # Define the program description
     text = 'This program parses an HTML bank file (BEKB) to an OFX file.'
