@@ -2,7 +2,7 @@
 
 Some banks have implemented statement download as an afterthought. The download cannot be fine-tuned with filters, contains the very minimum of fields and is therefore not very helpful for importing into personal finance Apps. The ones I am targeting require OFX imports.
 
-This script is based on screenscraping (BeautifulSoup 4 with Selenium) and is customised to be used with the Berner Kantonalbank (BEKB) which only provides statement downloads in MT940 format. The MT940 file does not contain enough information for my needs. I wrote a separate script to parse MT940 into OFX <here, provide link>, which is not used here. 
+This script is based on screenscraping (BeautifulSoup 4 with Selenium) and is customised to be used with the Berner Kantonalbank (BEKB) which only provides statement downloads in MT940 format. The MT940 file does not contain enough information for my needs. I wrote a separate script to parse MT940 into OFX <here, provide link>, which is not used here.
 
 The code does the following:
 
