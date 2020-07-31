@@ -15,7 +15,7 @@ I split the parsing into intermediate JSON file and then OFX file so that you ca
 
 Use:
 
-$ python ofx.py
+    $ python ofx.py
 
 Outputs are a JSON file and OFX file. The code has a hard-coded dict for translation of transaction types to Debit/Credit as needed for OFX. It is not a comprehensive list and could do with refactoring into an externally read lookup file.
 
